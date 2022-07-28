@@ -6,7 +6,9 @@
        <button class="btn btn-success comp" type="submit">Compose +</button>
     </form>
 
-    <%= homeStartingContent %>
+    <strong><em><%= homeStartingContent %></em></strong>
+    
+    <p><em><strong>All the composed blogs will be displayed here.</strong></em></p>
 
     <% posts.forEach(element => { %>
     <h2> <%= element.title%></h2>
